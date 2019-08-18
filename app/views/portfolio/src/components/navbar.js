@@ -1,14 +1,11 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
 
-class Header extends React.Component{
-    constructor(props){
-        super(props);
-    };
-    render(){
+const Header = () => {
+
         return(
             <React.Fragment>
             <Navbar bg="dark" variant="dark">
@@ -25,7 +22,5 @@ class Header extends React.Component{
             </React.Fragment>
         );
     }
-
-}
 
 export default Header;

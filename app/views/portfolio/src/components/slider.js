@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button"
 
 let picArray = ["C97A4562.jpg", "IMG_7554-photo.PNG", "IMG_7582-photo.JPG", "C97A4446.jpg"]
 
-class Slider extends React.Component {
-    constructor(props) {
-        super(props);
-    };
-    render() {
-        
+const Slider = (props) => {
         return (
             <React.Fragment>
                 <Carousel>
@@ -18,11 +13,11 @@ class Slider extends React.Component {
                             <img
                                 className="img-fluid"
                                 src={value}
-                                slide={index}
+                                alt={index}
                             />
                             <Carousel.Caption>
                                 <Button variant="outline-success"
-                                onClick={this.props.modal}>About Me</Button>
+                                onClick={props.modal}>About Me</Button>
                             </Carousel.Caption>
                         </Carousel.Item>
                     })}
@@ -31,6 +26,5 @@ class Slider extends React.Component {
         );
     }
 
-}
 
 export default Slider;
