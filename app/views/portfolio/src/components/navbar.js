@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import "../CSS/navbar.css"
 
 
 
@@ -8,7 +9,7 @@ const Header = () => {
 
         return(
             <React.Fragment>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="?" variant="dark" fixed = "top" className="header">
                 <Navbar.Brand href="/">Jared Wight</Navbar.Brand>
                 <Nav className="ml-auto ">
                     <Nav.Link href="/" active>Home</Nav.Link>
