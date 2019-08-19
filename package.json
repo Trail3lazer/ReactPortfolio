@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js
-     cd app/views/portfolio
-     react-scripts start"
+    "start": "concurrently --kill-others \"node server.js\" \"cd app/views/portfolio\" \"react-scripts start\""
   },
   "repository": {
     "type": "git",
@@ -22,5 +20,6 @@
   "dependencies": {
     "create-react-app": "^3.1.1",
     "express": "^4.17.1"
+    "concurrently": "^4.1.2"
   }
 }
