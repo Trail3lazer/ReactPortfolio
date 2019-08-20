@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button"
 import "../CSS/slider.css"
 
-let picArray = ["C97A4562.jpg", "IMG_7554-photo.PNG", "IMG_7582-photo.JPG", "C97A4446.jpg"]
+let picArray = ["C97A4562.jpg", "IMG_7554-photo.png", "IMG_7582-photo.JPG", "C97A4446.jpg"]
 
 const Slider = (props) => {
         return (
