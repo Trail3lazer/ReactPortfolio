@@ -13,7 +13,7 @@ const Slider = (props) => {
                         return <Carousel.Item>
                             <img
                                 className="img-fluid"
-                                src={value}
+                                src={"slider/"+value}
                                 alt={index}
                             />
                             <Carousel.Caption>
