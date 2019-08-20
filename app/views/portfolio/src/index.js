@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
-import Header from './components/navbar'
-// import App from './App';
+import Header from './components/Navbar'
 import Home from "./home"
-import Portfolio from './portfolio.js'
-import Contact from './contact.js'
+import Portfolio from './Portfolio.js'
+import Contact from './Contact.js'
 import NotFound from "./404"
 import * as serviceWorker from './serviceWorker';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'

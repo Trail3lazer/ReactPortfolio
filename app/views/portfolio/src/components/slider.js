@@ -10,7 +10,7 @@ const Slider = (props) => {
             <React.Fragment>
                 <Carousel>
                     {picArray.map((value, index) => {
-                        return <Carousel.Item>
+                        return <Carousel.Item key={index}>
                             <img
                                 className="img-fluid"
                                 src={"slider/"+value}

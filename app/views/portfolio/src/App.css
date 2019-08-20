@@ -16,6 +16,11 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
+.card-img {
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+
 .card {
   background-color: rgba(0, 255, 0, .1) !important;
 }

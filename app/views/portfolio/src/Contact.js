@@ -1,20 +1,25 @@
 import React from 'react';
-import Slider from "./components/slider";
-import Modal from "./components/AboutMeModal"
+import Jumbotron from "react-bootstrap/Jumbotron"
 import './App.css';
 
 function App() {
-  const [modalShow, setModalShow] = React.useState(false);
 
   return (
-    
-      <div className="App">
-        <Slider modal={() => { setModalShow(true) }} />
-        <Modal
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
+
+    <div className="jumboHolder">
+      <div class="container p-3">
       </div>
+      <Jumbotron className="mt-5 bg-dark text-light mx-auto col-md-8 jumbotron text-center">
+        <p>
+          <h1>Contact info</h1>
+        </p>
+        <hr />
+        <p>
+          jaredrwight@gmail.com
+        </p>
+    
+      </Jumbotron>
+    </div>
   );
 }
 

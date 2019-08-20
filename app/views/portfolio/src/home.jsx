@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from "./components/slider";
+import Slider from "./components/Slider";
 import Modal from "./components/AboutMeModal"
 import './App.css';
 
