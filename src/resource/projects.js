@@ -1,4 +1,16 @@
 let projects = {
+    rateMyPlace: {
+        name: "Rate My Place",
+        git:  'https://github.com/Trail3lazer/rate-my-place',
+        deploy: 'https://ratemypad.herokuapp.com/',
+        img: 'projects/rateMyPlace.png'
+    },
+    eventEasy: {
+        name: "Event Easy",
+        git: "https://github.com/NateElorreaga/Project1_Group1",
+        deploy: "https://nateelorreaga.github.io/Project1_Group1/",
+        img: 'projects/event.png'
+    },
     eatDaBurger: {
         name: "Eat-Da-Burger",
         git: "https://github.com/Trail3lazer/EatDaBurger",
@@ -10,12 +22,6 @@ let projects = {
         git: "https://github.com/Trail3lazer/FriendFinder",
         deploy: "https://friend-finder-for-the-lonely.herokuapp.com/",
         img: 'projects/friend.png'
-    },
-    eventEasy: {
-        name: "Event Easy",
-        git: "https://github.com/NateElorreaga/Project1_Group1",
-        deploy: "https://nateelorreaga.github.io/Project1_Group1/",
-        img: 'projects/event.png'
     },
     trainScheduler: {
         name: "Train Scheduler",
@@ -41,6 +47,7 @@ let projects = {
         deploy: 'https://trail3lazer.github.io/word-guess-game/',
         img: 'projects/hangman.png'
     },
+
 }
 
 export default projects
