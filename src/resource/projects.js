@@ -1,5 +1,5 @@
 let projects = {
-    reactTetris: {
+    mongoScraper: {
         name: "NFL Puppeteer MongoDB Scraper",
         git:  'https://github.com/Trail3lazer/MongoDB-Scraper',
         deploy: 'https://puppeteer-mongodb-scraper.herokuapp.com',
