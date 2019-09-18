@@ -1,4 +1,16 @@
 let projects = {
+    reactTetris: {
+        name: "NFL Puppeteer MongoDB Scraper",
+        git:  'https://github.com/Trail3lazer/MongoDB-Scraper',
+        deploy: 'https://puppeteer-mongodb-scraper.herokuapp.com',
+        img: 'projects/puppeteerMongo.png'
+    },
+    reactTetris: {
+        name: "React Tetris",
+        git:  'https://github.com/Trail3lazer/React-Tetris',
+        deploy: 'https://tetris-jw.herokuapp.com/',
+        img: 'projects/reactTetris.png'
+    },
     rateMyPlace: {
         name: "Rate My Place",
         git:  'https://github.com/Trail3lazer/rate-my-place',
