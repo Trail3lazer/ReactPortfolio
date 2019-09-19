@@ -3,7 +3,12 @@ import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button"
 import "../CSS/slider.css"
 
-let picArray = ["C97A4562.jpg", "IMG_7554-photo.png", "IMG_7582-photo.JPG", "C97A4446.jpg"]
+let picArray = [
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4562.jpg", 
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/IMG_7554-photo.png", 
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/IMG_7582-photo.JPG", 
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4446.jpg"
+]
 
 const Slider = (props) => {
         return (
@@ -13,7 +18,7 @@ const Slider = (props) => {
                         return <Carousel.Item key={index}>
                             <img
                                 className="img-fluid"
-                                src={"slider/"+value}
+                                src={value}
                                 alt={index}
                             />
                             <Carousel.Caption>
