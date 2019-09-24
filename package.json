@@ -11,7 +11,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://trail3lazer.github.io/ReactPortfolio/",
+  "homepage": "https://jared-wight.herokuapp.com/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
