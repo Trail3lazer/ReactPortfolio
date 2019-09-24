@@ -12,24 +12,28 @@ let picArray = [
 
 const Slider = (props) => {
     return (
-            <Carousel>
-                {picArray.map((value, index) => {
-                    return <Carousel.Item key={index}>
+        <Carousel>
+            {picArray.map((value, index) => {
+                return <Carousel.Item key={index} className="postition-relative">
+                    <div className="content">
                         <img
                             className="img-fluid"
                             src={value}
                             alt={index}
                         />
-                        <Carousel.Caption>
-                            <Button variant="dark"
-                                className="aboutBtn"
-                                onClick={props.modal}>
-                                About Me
+                    </div>
+                    <div className="FadeAway" />
+
+                    <Carousel.Caption>
+                        <Button variant="dark"
+                            className="aboutBtn"
+                            onClick={props.modal}>
+                            About Me
                                 </Button>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                })}
-            </Carousel>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            })}
+        </Carousel>
     );
 }
 
