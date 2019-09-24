@@ -1,4 +1,10 @@
 let projects = {
+    memoryGame: {
+        name: "React Memory Game",
+        git: "https://github.com/Trail3lazer/memory-game",
+        deploy: "https://memory-game-jw.herokuapp.com/",
+        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/memoryGame.png',
+    },
     mongoScraper: {
         name: "NFL Puppeteer MongoDB Scraper",
         git:  'https://github.com/Trail3lazer/MongoDB-Scraper',
