@@ -15,8 +15,12 @@ const Header = () => {
                     <Nav.Link href="/" active>Home</Nav.Link>
                     <Nav.Link href="/portfolio" active>Portfolio</Nav.Link>
                     <Nav.Link href="/contact" active>Contact</Nav.Link>
-                    <Nav.Link href="https://github.com/Trail3lazer" active><i className="fab fa-github"></i></Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/jaredwight/"><i className="fab fa-linkedin" style={{color: "#04A8F9"}}></i></Nav.Link>
+                    <Nav.Link href="https://github.com/Trail3lazer" active>
+                        <i className="fab fa-github"></i>
+                    </Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/jaredwight/">
+                        <i className="fab fa-linkedin" style={{color: "#04A8F9"}}></i>
+                    </Nav.Link>
                 </Nav>
                 
             </Navbar>
