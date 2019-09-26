@@ -1,17 +1,22 @@
 @keyframes stickGuy {
-  from {top: -260px;}
-  to {top: 770px;}
+  from {top: -260px;
+    transform:scale(0.15) rotateX(360deg) rotateZ(360deg)}
+  to {top: 770px;
+    transform:scale(0.15) rotateX(0deg) rotateZ(0deg)}
 }
 
 .portalContainer {
     position: absolute !important;
-    z-index: 30;
-    height: 100%;
+    z-index: 1;
+    height: 0%;
 }
 
-.stick-container-positioner {
-  top: -110px;
-  right: 18px;
+.stick-container {
+  top: 76px;
+  right: 0px;
+  height:  916px;
+  width: 106px;
+  overflow: hidden;
 }
 
 img.blue {
@@ -22,20 +27,14 @@ img.blue {
 }
 
 img.orange {
-  bottom: -800px;
-  right: 18px;
-  transform: scale(0.66) rotateZ(90deg) rotateY(60deg);
+  top: 800px;
+  right: -63px;
+  transform: scale(0.25) rotateZ(90deg) rotateY(60deg);
 }
 
 img.stickMan {
   top: -260px;
-  right: -290px;
-  transform: scale(0.15);
-  animation: stickGuy 3s infinite linear;
-
-}
-
-.portal-relative-container {
-  height: 100%;
-  width: 100%;
+  left: -208px;
+  animation: stickGuy 4s infinite linear;
+  
 }
