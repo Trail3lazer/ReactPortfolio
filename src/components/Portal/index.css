@@ -1,0 +1,19 @@
+.portalContainer {
+    position: absolute !important;
+    z-index: 30;
+}
+
+img.blue {
+  top: 02%;
+  right: 05%;
+  transform: scale(0.25) rotateZ(90deg) rotateY(60deg);
+
+}
+
+img.orange {
+  transform: scale(0.5) rotateZ(90deg) rotateY(60deg);
+}
+
+img.stickMan {
+  transform: scale(0.25);
+}
