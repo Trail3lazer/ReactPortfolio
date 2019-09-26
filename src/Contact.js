@@ -10,13 +10,12 @@ function App() {
       <div class="container p-3">
       </div>
       <Jumbotron className="mt-5 bg-dark text-light mx-auto col-md-8 jumbotron text-center">
-        <p>
-          <h1>Contact info</h1>
-        </p>
-        <hr />
-        <p>
-          jaredrwight@gmail.com
-        </p>
+     
+          jaredrwight@gmail.com 
+          <br/>
+          <a href="https://github.com/Trail3lazer"><i className="fab fa-github"></i> Github</a>
+          <br />
+          <a href="https://www.codewars.com/users/Trail3lazer"><i class="fab fa-node-js"></i> Code Wars</a>
     
       </Jumbotron>
     </div>
