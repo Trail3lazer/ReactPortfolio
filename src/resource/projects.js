@@ -2,7 +2,7 @@ let projects = {
     memoryGame: {
         name: "React Memory Game",
         git: "https://github.com/Trail3lazer/memory-game",
-        deploy: "https://memory-game-jw.herokuapp.com/",
+        deploy: "https://trail3lazer.github.io/memory-game/",
         img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/memoryGame.png',
     },
     mongoScraper: {
