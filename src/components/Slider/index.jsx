@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-import LazyLoad from 'react-lazyload';
 import "./slider.css"
 
 let picArray = [
@@ -16,13 +15,11 @@ const Slider = (props) => {
         <Carousel className="Slider">
             {picArray.map((value, index) => {
                 return <Carousel.Item key={index} className="postition-relative">
-                    <LazyLoad>
                         <img
                             className="img-fluid"
                             src={value}
                             alt={index}
                         />
-                    </LazyLoad>
                     <div className="FadeAway" />
 
                     <Carousel.Caption>
