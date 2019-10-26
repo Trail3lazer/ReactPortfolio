@@ -14,9 +14,6 @@ const Header = () => {
             <Navbar bg="?" variant="dark" fixed = "top" className="header">
                 <Navbar.Brand href="/">Jared Wight</Navbar.Brand>
                 <Nav className="ml-auto ">
-                    <Nav.Link href="/" active>Home</Nav.Link>
-                    <Nav.Link href="/portfolio" active>Portfolio</Nav.Link>
-                    <Nav.Link href="/contact" active>Contact</Nav.Link>
                     <Nav.Link href="https://github.com/Trail3lazer" active>
                         <i className="fab fa-github"></i>
                     </Nav.Link>
