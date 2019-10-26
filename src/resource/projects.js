@@ -35,23 +35,11 @@ let projects = {
         deploy: "https://nateelorreaga.github.io/Project1_Group1/",
         img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/event.webp'
     },
-    eatDaBurger: {
-        name: "Eat-Da-Burger",
-        git: "https://github.com/Trail3lazer/EatDaBurger",
-        deploy: "https://eat-duh-burger.herokuapp.com/",
-        img: "https://d1p0m2aj917ekc.cloudfront.net/projects/burger.webp"
-    },
     friendFinder: {
         name: "Friend Finder",
         git: "https://github.com/Trail3lazer/FriendFinder",
         deploy: "https://friend-finder-for-the-lonely.herokuapp.com/",
         img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/friend.webp'
-    },
-    trainScheduler: {
-        name: "Train Scheduler",
-        git: 'https://github.com/Trail3lazer/trainSchedule',
-        deploy: 'https://trail3lazer.github.io/trainSchedule/',
-        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/train.webp'
     },
     giftastic: {
         name: "Giftastic",
