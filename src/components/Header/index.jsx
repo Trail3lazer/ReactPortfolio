@@ -12,7 +12,7 @@ const Header = () => {
         return(
             <React.Fragment>
             <Navbar bg="?" variant="dark" fixed = "top" className="header">
-                <Navbar.Brand href="/">Jared Wight</Navbar.Brand>
+                <Navbar.Brand href="/ReactPortfolio">Jared Wight</Navbar.Brand>
                 <Nav className="ml-auto ">
                     <Nav.Link href="https://github.com/Trail3lazer" active>
                         <i className="fab fa-github"></i>
