@@ -4,10 +4,10 @@ import Button from "react-bootstrap/Button";
 import "./slider.css"
 
 let picArray = [
-    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4562.jpg",
-    "https://d1p0m2aj917ekc.cloudfront.net/slider/IMG_7554-photo.png",
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4562.webp",
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/IMG_7554.webp",
     "https://d1p0m2aj917ekc.cloudfront.net/slider/IMG_7582-photo.JPG",
-    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4446.jpg"
+    "https://d1p0m2aj917ekc.cloudfront.net/slider/C97A4446.webp"
 ]
 
 const Slider = (props) => {
