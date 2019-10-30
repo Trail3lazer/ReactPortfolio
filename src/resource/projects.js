@@ -4,6 +4,7 @@ let projects = {
         git: "https://github.com/ccrase/mock-market-project",
         deploy: "https://trader-trainer.herokuapp.com",
         img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/traderTrainer.webp',
+        video: 'https://youtu.be/oJbJgO4tW_4'
     },
     memoryGame: {
         name: "React Memory Game",

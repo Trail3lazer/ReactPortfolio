@@ -21,9 +21,9 @@ const makeCards = () => {
                     <Card.Body>
                         <Card.Title className="text-center">{projects[key].name}</Card.Title>
                         <Card.Text className="d-flex justify-content-center align-items-center">
-                            <Button variant="link" href={projects[key].deploy}>Page</Button>
-                            <div className="px-2">|</div>
-                            <Button variant="link" href={projects[key].git}>Code</Button>
+                            <Button variant="link" href={projects[key].deploy} target="_blank">Page</Button>
+                            {projects[key].video? <Button variant="link" href={projects[key].video} target="_blank">Video</Button>:<div className="px-2">|</div>}
+                            <Button variant="link" href={projects[key].git} target="_blank">Code</Button>
                         </Card.Text>
                     </Card.Body>
                 </Card>
