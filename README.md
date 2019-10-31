@@ -1,3 +1,14 @@
+Tried to put lots of functionality into my portfolio. 
+Included an animation on the side to encourage users to scroll down and showcase my css.
+All of the cards and thier links are created dynamically so it's easy for me to add new projects to my portfolio.
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
