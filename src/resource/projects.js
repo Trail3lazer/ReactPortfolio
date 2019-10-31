@@ -36,31 +36,6 @@ let projects = {
         deploy: "https://nateelorreaga.github.io/Project1_Group1/",
         img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/event.webp'
     },
-    friendFinder: {
-        name: "Friend Finder",
-        git: "https://github.com/Trail3lazer/FriendFinder",
-        deploy: "https://friend-finder-for-the-lonely.herokuapp.com/",
-        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/friend.webp'
-    },
-    giftastic: {
-        name: "Giftastic",
-        git: 'https://github.com/Trail3lazer/GifTastic',
-        deploy: 'https://trail3lazer.github.io/GifTastic/',
-        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/gif.webp'
-    },
-    triviaGame: {
-        name: "Trivia",
-        git: 'https://github.com/Trail3lazer/TriviaGame',
-        deploy: 'https://trail3lazer.github.io/TriviaGame/',
-        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/trivia.webp'
-    },
-    hangman: {
-        name: "Hangman",
-        git: 'https://github.com/Trail3lazer/word-guess-game',
-        deploy: 'https://trail3lazer.github.io/word-guess-game/',
-        img: 'https://d1p0m2aj917ekc.cloudfront.net/projects/hangman.webp'
-    },
-
 }
 
 export default projects
