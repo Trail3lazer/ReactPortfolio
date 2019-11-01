@@ -3,22 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.11",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
+    "react-lazyload": "^2.6.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://jared-wight.herokuapp.com/portfolio",
+
+  "homepage": "https://trail3lazer.github.io/ReactPortfolio",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

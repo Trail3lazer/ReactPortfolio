@@ -11,21 +11,3 @@
 body {
   background-image: url("./resource/background.png")
 }
-
-.portfolio {
-  font-family: 'Source Code Pro', monospace;
-}
-
-.card-img {
-  background-color: #343a40 !important;
-  border-color: #343a40 !important;
-}
-
-.card {
-  background-color: rgba(0, 255, 0, .1) !important;
-}
-
-.btnLink {
-  background-color: rgba(0, 149, 255, 0.544) !important;
-  border-color: transparent !important;
-}

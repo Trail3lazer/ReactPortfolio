@@ -1,0 +1,40 @@
+@keyframes stickGuy {
+  from {top: -260px;
+    transform:scale(0.15) rotateX(360deg) rotateZ(360deg)}
+  to {top: 770px;
+    transform:scale(0.15) rotateX(0deg) rotateZ(0deg)}
+}
+
+.portalContainer {
+    position: absolute !important;
+    z-index: 1;
+    height: 0%;
+}
+
+.stick-container {
+  top: 76px;
+  right: 0px;
+  height:  916px;
+  width: 106px;
+  overflow: hidden;
+}
+
+img.blue {
+  top: -110px;
+  right: -60px;
+  transform: scale(0.25) rotateZ(90deg) rotateY(60deg);
+
+}
+
+img.orange {
+  top: 800px;
+  right: -63px;
+  transform: scale(0.25) rotateZ(90deg) rotateY(60deg);
+}
+
+img.stickMan {
+  top: -260px;
+  left: -208px;
+  animation: stickGuy 4s infinite linear;
+  
+}

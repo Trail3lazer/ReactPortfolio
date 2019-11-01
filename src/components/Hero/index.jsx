@@ -1,14 +1,14 @@
 import React from 'react';
-import Slider from "./components/Slider";
-import Modal from "./components/AboutMeModal"
-import './App.css';
+import Slider from "../Slider";
+import Modal from "../Modal"
+import './hero.css';
 
-function App() {
+function Hero() {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
     
-      <div className="App">
+      <div className="Hero">
         <Slider modal={() => { setModalShow(true) }} />
         <Modal
           show={modalShow}
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Hero;
